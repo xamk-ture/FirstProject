@@ -12,8 +12,10 @@
 
             var y = Console.ReadLine();
 
+            //parses string to int and adds them together
             var result = int.Parse(x) + int.Parse(y);
 
+            
             Console.WriteLine("Combine result + is " + result);
             Console.WriteLine(string.Format("String format result is {0}", result));
             Console.WriteLine($"Interpolation result $ is {result}");
