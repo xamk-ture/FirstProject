@@ -12,6 +12,8 @@
 
             var y = Console.ReadLine();
 
+            //Tehtävä 7: Kysy käyttäjältä laskuoperaatio +,-, * tai / ja tulosta laskun tulos
+
             //parses string to int and adds them together
             var result = int.Parse(x) + int.Parse(y);
 
